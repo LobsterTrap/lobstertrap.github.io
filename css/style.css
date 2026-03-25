@@ -314,6 +314,64 @@ img { max-width: 100%; height: auto; display: block; }
   transform: translateX(4px);
 }
 
+/* ---- Why It Matters Section ---- */
+.why-content {
+  max-width: 900px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.why-content > p {
+  margin-bottom: 2rem;
+  color: var(--text-secondary);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.why-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.why-table th,
+.why-table td {
+  padding: 0.875rem 1.25rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.why-table thead th {
+  background: var(--bg-tertiary);
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.why-table tbody td:first-child {
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.why-table tbody td {
+  color: var(--text-secondary);
+}
+
+.why-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.why-table tbody tr:hover {
+  background: rgba(45, 212, 191, 0.04);
+}
+
 /* ---- Footer ---- */
 .site-footer {
   border-top: 1px solid var(--border);

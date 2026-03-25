@@ -14,4 +14,4 @@ python3 -m http.server 8000
 
 ## License
 
-MIT
+Apache-2.0
